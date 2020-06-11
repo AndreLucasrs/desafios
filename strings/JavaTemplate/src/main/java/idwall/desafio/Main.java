@@ -44,6 +44,9 @@ public class Main {
         final StringFormatter sf = new IdwallFormatter();
         String outputText = sf.format(text);
 
+        // Bastar passar no parametro o limite de caracteres por linha
+//        String outputText = sf.format(text, 40);
+
         // Print output text
         System.out.println("Output: ");
         System.out.println(outputText);
